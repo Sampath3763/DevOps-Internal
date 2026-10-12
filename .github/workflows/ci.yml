@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-	uses: actions/checkout@v4
+	      uses: actions/checkout@v4
       - name: Say hello
-	run: echo 'Hello from GitHub Actions'
+	      run: echo 'Hello from GitHub Actions'
       - name: List files
-	run: ls -la
+	      run: ls -la
