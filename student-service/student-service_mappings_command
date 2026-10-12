@@ -1,0 +1,1 @@
+curl.exe -s http://localhost:8100/actuator/mappings | Select-String -Pattern 'sms/[a-zA-Z]+' -AllMatches | ForEach-Object { $_.Matches.Value } | Sort-Object -Unique
